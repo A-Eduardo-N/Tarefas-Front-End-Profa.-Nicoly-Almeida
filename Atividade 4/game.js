@@ -1,5 +1,5 @@
 // game.js
-import { generateRandomNumber } from './randomNumber.js';
+import { generateRandomNumber } from './RandomNumer.js';
 import { checkGuess } from './GuessChecker.js';
 
 const MAX_ATTEMPTS = 5;
