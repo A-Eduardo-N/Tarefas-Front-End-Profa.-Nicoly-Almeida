@@ -1,0 +1,11 @@
+Explicação do Código
+HTML: O formulário coleta informações sobre a tarefa, e os botões permitem filtrar as tarefas. A lista <ul> exibe as tarefas.
+
+JavaScript:
+
+A função addTask adiciona novas tarefas ao array tasks e as salva no localStorage.
+A função loadTasks carrega as tarefas do localStorage ao abrir a página.
+displayTasks exibe as tarefas filtradas com base no status e prioridade.
+toggleComplete, deleteTask, e editTask manipulam a tarefa selecionada.
+Os filtros são controlados por filterByStatus e filterByPriority.
+isUrgent verifica se uma tarefa está próxima do prazo e checkUrgentTasks exibe um alerta se houver tarefas urgentes.
